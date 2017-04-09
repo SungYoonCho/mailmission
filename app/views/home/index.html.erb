@@ -1,0 +1,18 @@
+<div class=container>
+  <h1>C-Mail</h1>
+    <form action= "/write" method = "POST"> 
+      <div class="form-group">
+        <label for="usr">메일 제목</label>
+        <input name="title" type="text" class="form-control" id="usr" placeholder="메일 제목을 써 주세요">
+      </div>
+      <div class="form-group">
+        <label for="pwd">받는 사람</label>
+        <input name="email" type="email" class="form-control" id="mail_adress" placeholder="메일 주소를 써 주세요">
+      </div>
+      <div class="form-group">
+        <label for="comment">메일 내용</label>
+        <textarea name="content" class="form-control" rows="8" id="comment" placeholder="내용을 써 주세요"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">Send</button>
+    </form>  
+</div>

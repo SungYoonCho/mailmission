@@ -1,0 +1,7 @@
+<h1>메일이 저장되는 곳입니다</h1>
+
+<% @board.each do |k| %>
+    <%= k.title %><br>
+    <%= k.email %><br>
+    <%= k.content %>
+<% end %>
